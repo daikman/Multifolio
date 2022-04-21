@@ -1,0 +1,80 @@
+{
+    "menu": [
+        {
+            "tag": "web-dev",
+            "img": "favicon.png",
+            "title": "Web-dev",
+            "intro": "I've made a few web-projects",
+            "summary": "using things like React, Node and Rust. check em out 👇",
+            "links": {
+                "github": "daikman",
+                "twitter": "researchingdave"
+            }
+        },
+        {
+            "tag": "art",
+            "img": "favicon.png",
+            "title": "Art",
+            "intro": "I love painting!",
+            "summary": "Here are a few of my most meaningful projects.",
+            "links": {
+                "github": "daikman",
+                "twitter": "researchingdave"
+            }
+        },
+        {
+            "tag": "data",
+            "img": "favicon.png",
+            "title": "Data science",
+            "intro": "I know my way around data.",
+            "summary": "Here are some machine learning and data viz projects.",
+            "links": {
+                "github": "daikman",
+                "twitter": "researchingdave"
+            }
+        }
+    ],
+    "info": {
+        "title": "Multifolio demo",
+        "intro": "This is a demo site",
+        "summary": "for a categorized portfolio. With cool animated folders! 😎",
+        "links": {
+            "github": "daikman",
+            "twitter": "researchingdave"
+        }
+    },
+    "items": [
+        {
+            "name": "Fun project",
+            "desc": "Description of your amazing work with a background image",
+            "img": "favicon.png",
+            "demo": "",
+            "mobileWarn": false,
+            "tags": ["web-dev", "data", "art"]
+        },
+        {
+            "name": "Fun project",
+            "desc": "Description of your amazing work with a background image",
+            "img": "favicon.png",
+            "demo": "",
+            "mobileWarn": false,
+            "tags": ["web-dev", "data", "art"]
+        },
+        {
+            "name": "Fun project",
+            "desc": "Description of your amazing work with a background image",
+            "img": "favicon.png",
+            "demo": "",
+            "mobileWarn": false,
+            "tags": ["web-dev", "data", "art"]
+        },
+        {
+            "name": "Fun project",
+            "desc": "Description of your amazing work with a background image",
+            "img": "favicon.png",
+            "demo": "",
+            "mobileWarn": false,
+            "tags": ["web-dev", "data", "art"]
+        }
+    ]
+}

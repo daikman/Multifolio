@@ -1,0 +1,86 @@
+.item a {
+    color: inherit;
+}
+
+.item p {
+    margin-left: 16px;
+}
+
+.item {
+    position: relative;
+    background-color: white;
+    background-color: rgba(255, 245, 245, 0.85);
+    overflow: hidden;
+    padding: 1%;
+    height: 225px;
+    margin-bottom: 32px;
+}
+
+.menuItem {
+    padding: 0%;
+}
+
+.folder button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: inherit;
+}
+
+.folder text {
+    position: absolute;
+    font-size: larger;
+    bottom: 40%;
+    left: 0;
+    width: 100%;
+    height: 15%;
+}
+
+.item:hover {
+    background-color: white;
+}
+
+/* .folder {
+    background-color: white;
+} */
+
+/* .folder:hover {
+    background-color: rgba(255, 245, 245, 0.85);
+} */
+
+.item img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.folder img {
+    height: 100%;
+    width: auto;
+    /* filter: contrast(500%); */
+    opacity: 0.5;
+}
+
+.m-warning {
+    color: rgb(175, 1, 1);
+    font-weight: bold;
+    font-size: smaller;
+}
+
+@media (min-width: 600px) {
+    .m-warning{
+        display: none;
+    }
+}
+
+.links p {
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 1%;
+}
